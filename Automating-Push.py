@@ -39,7 +39,14 @@ def main():
             print(f"Waiting for {wait_time // 60} minutes before next operation.")
             time.sleep(wait_time)
     except KeyboardInterrupt:
-        print("\nExiting the program safely.")
+        print("3")
+        time.sleep(1)
+        print("2")
+        time.sleep(1)
+        print("1")
+        time.sleep(1)
+        print("\nExiting the program safely...")
+        time.sleep(1)
         # Any cleanup can be done here before exiting
         exit(0)
 
